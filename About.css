@@ -1,0 +1,78 @@
+body{
+  background-color: rgb(0,0,0);
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+}
+
+:root{
+  /* Theme colors*/
+
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #014f55;
+
+    /*Gradient color*/
+    --sky: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+  /*theme font-family*/
+  --Modak: 'Modak', cursive;
+  --Pacifico: 'Pacifico', cursive;
+  --Roboto_Slab: 'Roboto_Slab', cursive;
+  --Zilla_Slab: 'Zilla_Slab', cursive;
+}
+
+
+
+.masthead-intro,
+.masthead-heading{
+  text-align: center;;
+}
+
+.masthead{
+  padding: 6em 0;
+  text-align: center;
+}
+
+.masthead-heaading {
+  margin-bottom: 0.1em;
+}
+
+.masthead h1{
+  color: white;
+  text-decoration: underline;
+}
+
+.masthead p{
+  color: white;
+}
+
+.masthead-intro{
+  margin-top: -0.2em;
+}
+
+.info h1 {
+  text-align: center;
+  color: white;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.info p{
+  color: white;
+}
+
+.info-container h2{
+  color: white;
+  text-decoration: underline;
+  }
+
+.info {
+  vertical-align:top;
+  display:inline-block;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing: border-box;  
+}
+
